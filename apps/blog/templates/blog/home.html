@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <title>Primeiro Template</title>
 </head>
@@ -9,6 +10,8 @@
     <h3>Titulo: {{primeiro.titulo}}</h3>
     <h3>Autor: {{primeiro.autor}}</h3>
     <br><br>
+    <img src="{% static 'blog/python.png' %}">
+
     <h1>Lista dos Posts</h1>
 <!--    <ul>-->
 <!--        {% for post in posts %}-->
@@ -20,5 +23,6 @@
             <a href="{% url 'post_detail' post.id %}"> <li>{{ post.titulo }} - {{ post.autor }} </li></a>
         {% endfor %}
     </ul>
+    
 </body>
 </html>

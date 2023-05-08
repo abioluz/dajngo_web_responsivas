@@ -9,7 +9,7 @@
     <h3>Autor: {{posts.autor}}</h3>
     <h3>Titulo: {{posts.titulo}}</h3>
     <h3>Subtitulo: {{posts.subtitulo}}</h3>
-    <h3>Conteudo: {{posts.conteudo}}</h3>
+    <h3>Conteudo: {{posts.conteudo|safe}}</h3>
     <h3>Data de Publicação: {{posts.data_publicacao|date:"d/m/Y"}} ás {{posts.data_publicacao|date:"H:i:s"}}</h3>
 
 
