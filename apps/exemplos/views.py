@@ -33,3 +33,11 @@ def get_bootstrap_alin_ver(request):
 
 def get_bootstrap_utilitarios(request):
     return render(request, 'exemplos/12_utilitarios.html')
+def get_bootstrap_collapse(request):
+    return render(request, 'exemplos/13_collapse.html')
+
+def get_bootstrap_display_flex(request):
+    return render(request, 'exemplos/14_display_flex.html')
+
+def get_bootstrap_display_flexII(request):
+    return render(request, 'exemplos/15_display_flexII.html')

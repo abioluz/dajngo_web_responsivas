@@ -16,5 +16,9 @@ urlpatterns = [
     path('alin_hor', views.get_bootstrap_alin_hor, name='alin_hor'),
     path('alin_ver', views.get_bootstrap_alin_ver, name='alin_ver'),
     path('utilitarios', views.get_bootstrap_utilitarios, name='utilitarios'),
+    path('collapse', views.get_bootstrap_collapse, name='collapse'),
+    path('display_flex', views.get_bootstrap_display_flex, name='display_flex'),
+    path('display_flexii', views.get_bootstrap_display_flexII, name='display_flexii'),
 
 ]
+
