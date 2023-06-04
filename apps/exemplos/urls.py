@@ -5,7 +5,7 @@ app_name = 'exemplos'
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('inicio', views.get_bootstrap, name='inicio'),
+    path('inicio1', views.get_bootstrap, name='inicio'),
     path('containers', views.get_bootstrap_containers, name='containers'),
     path('grids', views.get_bootstrap_grids, name='grids'),
     path('grids2', views.get_bootstrap_grids2, name='grids2'),
