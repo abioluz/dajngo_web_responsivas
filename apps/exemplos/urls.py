@@ -19,6 +19,9 @@ urlpatterns = [
     path('collapse', views.get_bootstrap_collapse, name='collapse'),
     path('display_flex', views.get_bootstrap_display_flex, name='display_flex'),
     path('display_flexii', views.get_bootstrap_display_flexII, name='display_flexii'),
+    path('formulario_i', views.get_bootstrap_formulario_I, name='formulario_i'),
+    path('processa_formulario_v1', views.get_bootstrap_processa_formulario_v1, name='processa_formulario_v1'),
+    path('formulario_ii', views.get_bootstrap_formulario_II, name='formulario_ii'),
+    path('processa_formulario_v2', views.get_bootstrap_processa_formulario_v2, name='processa_formulario_v2'),
 
 ]
-
